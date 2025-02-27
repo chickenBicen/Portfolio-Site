@@ -6,7 +6,7 @@
 body{
     background: var(--background-gradient);
     height: 100vh;
-    min-width: 1000px;
+    min-width: px;
 }
 
 .imageBox{
