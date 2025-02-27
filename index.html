@@ -22,6 +22,10 @@
       </div>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+      if (window.innerWidth < 320 || window.innerHeight < 480) {
+        window.resizeTo(320, 480); // Force a minimum size
+      }
+    </script>
   </body>
 </html>
